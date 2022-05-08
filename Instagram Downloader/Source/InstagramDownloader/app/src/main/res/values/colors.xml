@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4682B4</color>
+    <color name="colorPrimaryDark">#4682B4</color>
+    <color name="colorAccent">#4682B4</color>
+
+    <!-- Buttons colors -->
+    <color name="custom_default_fill">#4682B4</color>
+    <color name="custom_default_edge">#4682B4</color>
+    <color name="custom_active_fill">#FF006488</color>
+    <color name="custom_active_edge">#FF006488</color>
+    <color name="custom_disabled_fill">#4682B4</color>
+    <color name="custom_disabled_edge">#4682B4</color>
+</resources>

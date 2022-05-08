@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Instagram Videos And Images Downloader</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">“Instagram Videos And Images Downloader” Documentation by “Ibrahim Al-Bzour” v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">“Instagram Videos And Images Downloader”</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 20/6/2016<br>
+					By: Ibrahim Al-Bzour<br>
+					Email: <a href="mailto:al.bzoor94@gmail.com">al.bzoor94@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/syntaxplus">here</a>. Thanks so much!</p>
+			</div>
+		</div>
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ul>
+			<li><a href="#intro">Introduction</a></li>
+			<li><a href="#require">Installing Requirements</a></li>
+			<li><a href='#importproject'>Opening the project in Eclipse</a></li>			
+			<li><a href='#packagename'>Changing the package name</a></li>
+			<li><a href='#appname'>Changing app name</a></li>			
+			<li><a href='#admob'>Setting Up Admob</a></li>
+			<li><a href='#custom'>Customizing Image Resources</a></li>
+			<li><a href='#update'>Updating App Version</a></li>	
+			
+		</ul>
+		
+		<hr>
+		
+		<h3 id="intro"><strong>Introduction</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Instagram Videos And Images Downloader allows you to download videos and images from Instagram links. By copying image’s and video’s link and pasting into Instagram Downloader which automatically downloads that video/image, It has many features as described here:
+			<ul>
+				<li>Android Studio Project</li>
+				<li>Beautiful User Interface</li>
+				<li>Easy to reskin</li>
+				<li>Admob Banner & Interstitial</li>
+				<li>2 Tools in one Application</li>
+				<li>Well documented user guide</li>
+			</ul>
+			</p> 
+		
+		<hr>
+		
+
+		<h3 id="require"><strong>Installing Requirements</strong> - <a href="#toc">top</a></h3>
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/sdk.png'><img src='assets/images/sdk.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>		
+		<div style='float:right; padding:0 0 20px 20px'><a href='assets/images/jdk.png'><img src='assets/images/jdk.png' alt='' title='Click to view' height='100' style='border:1px solid #aaa'></a></div>
+		<p>
+			As this project use Android Studio, you need to download it first in order to be 
+			able to configure the app. Besides Android Studio, you also need to install a Java
+			Development Kit (JDK), at least Version 7 and also Android SDK Tools.
+			<br/>You can download Java Development Kit (JDK) <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">here</a> 
+			and Android Studio <a href="https://developer.android.com/studio/index.html">here</a>. Install JDK first to your
+			computer and after finishing installing JDK, add java path to system variables if necessary. You can 
+			read an article about adding java path into system variables
+			<a href="http://www.kingluddite.com/tools/how-do-i-add-java-to-my-windows-path">here</a>. Now, you can install 
+			Android Studio, just install it and double-click android studio icon.<br>
+			After this you need to donwload Android SDK Tools <a href="http://developer.android.com/sdk/index.html#Other">here</a>.</p>
+	
+		<hr>
+		
+		
+		<h3 id="importproject"><strong>Opening the project in Android Studio</strong> - <a href="#toc">top</a></h3>		
+		<p>Now, you have already installed all softwares that required to configure Android project. To open 
+		Android project to Eclipse follow this steps: 
+			<ol>
+				<li>Open Android Studio > File > New > "Import Project" </li>
+				<li>In the dialog that opens, browse to the project (or a directory containing source files) that you want to import.</li>
+				<li>Then go to 'Build' Menu > Clean Project</li>
+				<li>Wait for few minutes until all errors are gone. Ignore any warning appears in 'Problems' tab.</li>
+			</ol>
+		</p> 
+		
+		<hr>
+		
+		
+		<h3 id="packagename"><strong>Changing the package name</strong> - <a href="#toc">top</a></h3>
+				
+				
+				<div style='margin-left:1.0in'>
+								<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-indent:-.25in;line-height:14.65pt;background:white'><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729'>A.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+				dir=LTR></span><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729'>In your<span class=apple-converted-space>&nbsp;</span><em><b><span
+				style='font-family:"Arial","sans-serif"'>Project pane</span></b></em>, click on
+				the little gear icon (<span class=apple-converted-space>&nbsp;</span><img
+				width=19 height=12 id="Picture 1"
+				src="assets/images/image001.png" alt="Gears icon"><span
+				class=apple-converted-space>&nbsp;</span>)</span></p>
+
+				<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-indent:-.25in;line-height:14.65pt;background:white'><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729'>B.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+				dir=LTR></span><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729'>Uncheck / De-select the<span class=apple-converted-space>&nbsp;</span></span><code><span
+				style='font-size:9.0pt;font-family:Consolas;color:#242729;background:#EFF0F1'>Compact
+				Empty Middle Packages</span></code><span class=apple-converted-space><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729'>&nbsp;</span></span><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729'>option</span></p>
+
+				<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-indent:-.25in;line-height:14.65pt;
+				background:white'><span style='font-family:"Arial","sans-serif";color:#242729'>C.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span dir=LTR></span><span
+				style='font-family:"Arial","sans-serif";color:#242729'>Your package directory
+				will now be broken up in individual directories</span></p>
+
+				<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-indent:-.25in;line-height:14.65pt;
+				background:white'><span style='font-family:"Arial","sans-serif";color:#242729'>D.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span dir=LTR></span><span
+				style='font-family:"Arial","sans-serif";color:#242729'>Individually select each
+				directory you want to rename, and:</span></p>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>1.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Right-click it</span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>2.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Select&nbsp;</span><span style='font-size:9.0pt;line-height:107%;
+				font-family:Consolas;background:#EFF0F1'>Refactor</span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>3.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Click on&nbsp;</span><span style='font-size:9.0pt;line-height:107%;
+				font-family:Consolas;background:#EFF0F1'>Rename</span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>4.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>In the Pop-up dialog, click on&nbsp;</span><span style='font-size:9.0pt;
+				line-height:107%;font-family:Consolas;background:#EFF0F1'>Rename Package</span><span
+				style='font-size:11.0pt;line-height:107%'>&nbsp;instead of Rename Directory</span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>5.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Enter the new name and hit&nbsp;<b>Refactor</b></span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>6.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Allow a minute to let Android Studio update all changes</span></h3>
+
+				<h3 style='text-indent:0in'><span style='font-size:11.0pt;line-height:107%'>7.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span dir=LTR></span><span style='font-size:11.0pt;line-height:
+				107%'>Note: When renaming&nbsp;</span><span style='font-size:9.0pt;line-height:
+				107%;font-family:Consolas;background:#EFF0F1'>com</span><span style='font-size:
+				11.0pt;line-height:107%'>&nbsp;in Android Studio, it might give a warning. In
+				such case, select <b>Rename All</b></span></h3>
+
+				<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-indent:-.25in;line-height:14.65pt;background:white'><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729'>E.<span
+				style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+				dir=LTR></span><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729;background:white'>Now open your<span class=apple-converted-space>&nbsp;</span><em><b><span
+				style='font-family:"Arial","sans-serif"'>Gradle Build File</span></b></em><span
+				class=apple-converted-space>&nbsp;</span>(</span><code><span style='font-size:
+				9.0pt;font-family:Consolas;color:#242729;background:#EFF0F1'>build.gradle</span></code><span
+				class=apple-converted-space><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729;background:white'>&nbsp;</span></span><span style='font-size:
+				11.0pt;font-family:"Arial","sans-serif";color:#242729;background:white'>-
+				Usually<span class=apple-converted-space>&nbsp;</span></span><code><span
+				style='font-size:9.0pt;font-family:Consolas;color:#242729;background:#EFF0F1'>app</span></code><span
+				class=apple-converted-space><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729;background:white'>&nbsp;</span></span><span style='font-size:
+				11.0pt;font-family:"Arial","sans-serif";color:#242729;background:white'>or<span
+				class=apple-converted-space>&nbsp;</span></span><code><span style='font-size:
+				9.0pt;font-family:Consolas;color:#242729;background:#EFF0F1'>mobile</span></code><span
+				style='font-size:11.0pt;font-family:"Arial","sans-serif";color:#242729;
+				background:white'>). Update the<span class=apple-converted-space>&nbsp;</span></span><code><span
+				style='font-size:9.0pt;font-family:Consolas;color:#242729;background:#EFF0F1'>applicationId</span></code><span
+				class=apple-converted-space><span style='font-size:11.0pt;font-family:"Arial","sans-serif";
+				color:#242729;background:white'>&nbsp;</span></span><span style='font-size:
+				11.0pt;font-family:"Arial","sans-serif";color:#242729;background:white'>to your
+				new Package Name and Sync Gradle, if it hasn't already been updated
+				automatically</span></p>
+
+				<p align=center style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+				margin-bottom:.0001pt;text-align:center;line-height:14.65pt;
+				background:white'><span style='font-size:11.5pt;font-family:"Arial","sans-serif";
+				color:#242729'>&nbsp;</span></p>
+				
+				</div>
+				
+		<hr>
+		
+		
+		<h3 id="appname"><strong>Changing app name</strong> - <a href="#toc">top</a></h3>
+		
+		<div style='float:right; padding:0 0 20px 20px'></div>		
+		<p>
+			<ol>
+				<li>Open Andorid Studio > App > res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your app name inside <b>"app_name"</b> string tag:<br /><code>&lt;string name="app_name"&gt;<b>Instagram Downloader</b>&lt;/string&gt;</code></li>
+			</ol>
+			This will change both title inside the app & app icon name.
+		</p> 
+		
+		<hr>
+
+		
+		<h3 id="admob"><strong>Setting Up Admob</strong> - <a href="#toc">top</a></h3>
+		<div style='float:right; padding:0 0 20px 20px'></div>		
+		<p>To set up Admob Ads Go to <a href="http://apps.admob.com">apps.admob.com</a> and login with your Admob account, 
+		if you don't know how to monetize a new app please see this guide <a href="https://support.google.com/admob/answer/2773509?hl=en">here</a>
+		from Google about how to do it. Below are steps 
+		to set up Admob on Android project:
+			<ol>
+				<li>Open Andorid Studio > App > res > values > strings.xml</li>
+				<li>Select 'strings.xml' tab next to 'Resources' tab</li>
+				<li>Enter your AdMob Banner id inside <b>"banner_ad_id"</b> string tag:<br /><code>&lt;string name="banner_ad_id"&gt;<b>Your AdMob Banner ID Here</b>&lt;/string&gt;</code></li>
+				<li>Enter your AdMob Interstitial id inside <b>"Interstitial_ads_id"</b> string tag:<br /><code>&lt;string name="Interstitial_ads_id"&gt;<b>Your AdMob Interstitial ID Here</b>&lt;/string&gt;</code></li>
+			</ol>
+		</p> 
+		<hr>
+
+		<h3 id="update"><strong>Updating App Version</strong> - <a href="#toc">top</a></h3>
+		<div style='float:right; padding:0 0 20px 20px'></div>		
+		<p>When you want to update your app on Google Play, make sure that you change the Version code
+		and Version name on AndroidManifest.xml file that is located under res folder, to
+		higher number than previous version and save.
+		</p>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this app. As I said at the beginning, I'd be glad to help you if you have any questions relating to this app.If you have a more general question relating to the apps on CodeCanyon, you might consider visiting the "FAQ / Support" section and asking your question in the "Comments" section at CodeCanyon app detail page.</p> 
+		
+		<p class="append-bottom alt large"><strong>Ibrahim Al-Bzour</strong><br /></p>
+
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

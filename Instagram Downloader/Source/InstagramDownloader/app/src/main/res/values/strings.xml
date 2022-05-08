@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Instagram Downloader</string>
+    <string name="save">You file saved in </string>
+    <string name="download_path">InstagramDownloader</string>
+    <string name="guide">How to get URL</string>
+    <string name="downloads">Downloads</string>
+    <string name="downloading">Downloading...</string>
+    <string name="loading">Loading...</string>
+    <string name="download_image">Download image</string>
+    <string name="download_video">Download video</string>
+    <string name="check_internet">No internet connection , check it and try again</string>
+    <string name="wrong_url">Wrong URL !</string>
+    <string name="step1">Step 1 : Get your image/video URL from instagram</string>
+    <string name="step2">Step 2 : Back to this application and paste the URL and press on "Check"</string>
+    <string name="step3">Step 3 : Download or respost your image/video ☺</string>
+    <string name="url_regex">(?:(?:http|https):\\/\\/)?(?:www.)?(?:instagram.com|instagr.am)\\/?[A-Za-z0-9-_]*\\/?[A-Za-z0-9-_]*\\/?</string>
+
+
+    <string name="banner_ad_id">YOUR_BANNER_ID</string>
+    <string name="interstitial_ads_id">YOUR_INTERSTITIAL_ID</string>
+
+</resources>
